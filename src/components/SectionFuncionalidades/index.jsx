@@ -6,23 +6,21 @@ import image3 from "../../assets/image3.png";
 import image4 from "../../assets/image4.png";
 import { TitleSectio } from "../TitleSection";
 import { useState } from "react";
+import { t } from "i18next";
 
 export function SectionFuncionalidades() {
   const [image, setImage] = useState(image2);
 
   return (
     <Container>
-      <TitleSectio />
+      <TitleSectio title={t("titleSection3")}/>
       <Content>
         <div className="content_mobile">
           <div className="menu_mobile">
             <div className="content1" onClick={() => {setImage(image1)}}>
               <div>
-                <h2> <Star size={16} /> Avaliações</h2>
-                <p>
-                  Encontre as melhores avaliações antes de baxar ou comprar um
-                  jogo novo.
-                </p>
+                <h2> <Star size={16} /> {t("rating")}</h2>
+                <p>{t("text1")}</p>
               </div>
             </div>
             <div
@@ -32,10 +30,8 @@ export function SectionFuncionalidades() {
               }}
             >
               <div>
-                <h2>
-                  <PlayCircle size={16} /> Streamers
-                </h2>
-                <p>Divirta-se com streamers parceiros oficiais da eGamers.</p>
+                <h2> <PlayCircle size={16} /> {t("streamers")}</h2>
+                <p>{t("text2")}</p>
               </div>
             </div>
             <div
@@ -45,11 +41,8 @@ export function SectionFuncionalidades() {
               }}
             >
               <div>
-                <h2>
-                  {" "}
-                  <Rocket size={16} /> Posts
-                </h2>
-                <p>Compartilhe tela e poste seu jogo favorito nos stories.</p>
+                <h2><Rocket size={16} /> {t("posts")}</h2>
+                <p>{t("text3")}</p>
               </div>
             </div>
             <div
@@ -59,13 +52,8 @@ export function SectionFuncionalidades() {
               }}
             >
               <div>
-                <h2>
-                  {" "}
-                  <Trophy size={16} /> Campeonatos
-                </h2>
-                <p>
-                  Organize e acompanhe os melhores campeonatos em um só lugar.
-                </p>
+                <h2><Trophy size={16} /> {t("championships")}</h2>
+                <p>{t("text4")}</p>
               </div>
             </div>
           </div>

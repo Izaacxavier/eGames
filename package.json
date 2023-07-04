@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "flag-icons": "^6.7.0",
+    "i18next": "^23.2.6",
     "keen-slider": "^6.8.5",
     "phosphor-icons": "^1.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.1",
     "styled-components": "^6.0.0-rc.6",
     "swiper": "^9.4.1"
   },

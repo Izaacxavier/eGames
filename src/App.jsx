@@ -13,6 +13,8 @@ import { SectionDownload } from "./components/SectionDownload";
 import { Footer } from "./components/footer";
 import { MenuMobile } from "./components/MenuMobile";
 import { useState } from "react";
+import "./utils/i18n";
+import { t } from "i18next";
 
 
 export function App() {
@@ -35,14 +37,14 @@ export function App() {
       <SectionMain
         image={Image1}
         icon={<ShareNetwork size={32} />}
-        title="Uma rede social completa só de gamers"
-        text="Uma experiencia 100% voltada para jogos. Aqui Você pode postar sobre sua partida acompanhar seu streamer favorito e muito mais"
+        title={t("titleSection1")}
+        text={t("subTitleSection1")}
       />
       <SectionMain
         image={Image2}
         icon={<UserPlus size={32} />}
-        title="Faça amigos para próxima partida"
-        text="Converse com seus amigos através de mensagens privadas ou até mesmo em grupos de até 200 pessoas"
+        title={t("titleSection1.2")}
+        text={t("subTitleSection1.2")}
         isReverse
       />
       <SectionFuncionalidades/>

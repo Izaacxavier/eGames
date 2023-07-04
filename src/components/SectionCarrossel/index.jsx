@@ -3,6 +3,7 @@ import { TitleSectio } from "../TitleSection";
 import { Container} from "./styles";
 import quote from "../../assets/icons/quotes.png";
 import { Slider } from "../slider";
+import { t } from "i18next";
 
 
 export function SectionCarrossel() {
@@ -10,7 +11,7 @@ export function SectionCarrossel() {
     <Container>
       <TitleSectio
         icon={quote}
-        title="Feito para todos que amam jogos onlines"
+        title={t("titleCarousel")}
       />
 
         

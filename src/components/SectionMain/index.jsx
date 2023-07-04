@@ -1,4 +1,5 @@
 import { Chat, Chats } from "@phosphor-icons/react";
+import { t } from "i18next";
 import { Container, Content } from "./styles";
 export function SectionMain({image, icon, title, text, isReverse}) {
   return (
@@ -21,7 +22,7 @@ export function SectionMain({image, icon, title, text, isReverse}) {
                 </button>
                 <button>
                 <Chats size={28} />
-                <strong>Grupos</strong>
+                <strong>{t("groups")}</strong>
                 </button>
           </div>
         </div>

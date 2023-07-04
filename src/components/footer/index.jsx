@@ -5,6 +5,7 @@ import Linkedin from "../../assets/icons/iconLinkedin.svg";
 import Twitter from "../../assets/icons/iconTwitter.svg";
 import { ButtonTranslate } from "../ButtonTranslate";
 import { Logo } from "../Logo";
+import { t } from "i18next";
 
 export function Footer() {
   return (
@@ -13,10 +14,7 @@ export function Footer() {
         <header>
           <div>
             <Logo />
-            <p>
-              Conteúdo gamer feito pra você ficar por dentro da industria e
-              também se conectar com outros gamers.
-            </p>
+             <p>{t("textFooter")}</p>
             <div className="redes_sociais">
               <a href="">
                 <button>
@@ -44,36 +42,36 @@ export function Footer() {
           <div>
             <ul>
               <li>
-                <a href="">Quem somos</a>
+                <a href="">{t("aFootertitle1")}</a>
               </li>
               <li>
-                <a href="">Perguntas frequentes</a>
+                <a href="">{t("aFootertitle2")}</a>
               </li>
               <li>
-                <a href="">Assessoria de imprensa</a>
+                <a href="">{t("aFootertitle3")}</a>
               </li>
               <li>
-                <a href="">Carreira</a>
+                <a href="">{t("aFootertitle4")}</a>
               </li>
               <li>
-                <a href="">Blog</a>
+                <a href="">{t("aFootertitle5")}</a>
               </li>
               <li>
-                <a href="">Contato</a>
+                <a href="">{t("aFootertitle6")}</a>
               </li>
             </ul>
           </div>
           <div className="news_container">
-            <h2>Assine nossa Newsletter</h2>
+            <h2>{t("textNews")}</h2>
             <div>
-              <input type="email" placeholder="Seu e-mail" />
-              <button>Assinar</button>
+              <input type="email" placeholder={t("placeholder")} />
+              <button>{t("buttonNews")}</button>
             </div>
           </div>
         </header>
         <footer>
           <div>
-            <small>eGames 2023 - Todos os direitos reservados</small>
+            <small>{t("copyright")}</small>
           </div>
           <div className="buttonTranslate">
             <ButtonTranslate />

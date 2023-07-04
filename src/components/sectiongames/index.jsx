@@ -8,6 +8,7 @@ import cs from "../../assets/sectionImage/cs.png";
 import valorant from "../../assets/sectionImage/valorant.png";
 import warzone from "../../assets/sectionImage/warzone.png";
 import cta from "../../assets/sectionImage/cta.png";
+import { t } from "i18next";
 
 export function SectionGames() {
   return (
@@ -39,8 +40,8 @@ export function SectionGames() {
           <div className="card_cta">
             <img src={cta} alt="" />
             <div className="button_container">
-            <strong>Na comunidade eGames todos os jogos tem espaço. Encontre sua tribo!</strong>
-            <button>Instale agora!</button>
+            <strong>{t("titleCTA")}</strong>
+            <button>{t("buttonCTA")}</button>
             </div>
           </div>
         </div>

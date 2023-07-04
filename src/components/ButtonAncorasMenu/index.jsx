@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import { useState } from "react";
 import { Container } from "./styles";
 
@@ -8,10 +9,10 @@ export function ButtonAncoraMenu({isMobile}) {
        <div className={isMobile ? "mobile" : "web"}>
        <ul>
           <li>
-            <a href="#">Sobre</a>
+            <a href="#">{t("buttonMenu1")}</a>
           </li>
           <li>
-            <a href="#">Funcionalidades</a>
+            <a href="#">{t("buttonMenu2")}</a>
           </li>
           <li>
             <a href="#">Download</a>

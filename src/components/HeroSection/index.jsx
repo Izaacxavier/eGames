@@ -7,10 +7,11 @@ import Facebook from '../../assets/icons/facebook_logo.png'
 import Twitch from '../../assets/icons/Twitch_Icon.png'
 import Youtube from '../../assets/icons/YouTube_logo.png'
 import Discord from '../../assets/icons/Discord_logo.png'
-
+import { useTranslation } from "react-i18next";
 
 
 export function HeroSection() {
+  const { t } = useTranslation();
   return (
     <Container>
       <Content>
@@ -20,16 +21,13 @@ export function HeroSection() {
               {" "}
               <img src={userPlusIcon} /> 25.635
             </span>
-            <small>eGamers online agora!</small>
+            <small>{t("descriptionTag")}</small>
           </div>
           <div className="title">
-            <h1>A maior e mais Completa comunidade gamer da internet</h1>
+            <h1>{t("titlemain")}</h1>
           </div>
           <div className="subtitle">
-            <p>
-              Curta, compartilhe, assista e comente tudo sobre o mundo gamer em
-              um só lugar.{" "}
-            </p>
+            <p>{t("subtitleMain")}</p>
           </div>
 
           <div className="button-container">
@@ -56,7 +54,7 @@ export function HeroSection() {
       </Content>
 
       <div className="divisor">
-          <h2>Integração com os maiores do mundo gamer</h2>
+          <h2>{t("titleIntegrations")}</h2>
           
           <div>
           <img src={Facebook} alt="facebook logo" />

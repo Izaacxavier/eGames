@@ -14,6 +14,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Card } from "../Card";
 import { useEffect, useRef, useState } from "react";
+import { t } from "i18next";
 
 export function Slider() {
   const swiperRef = useRef(null);
@@ -64,7 +65,7 @@ export function Slider() {
               avatar={User2}
               name="Pedro henrique"
               userInfo="Gamer e UI desinger"
-              coments="Encontrei o egamers por acaso e foi o melhor achado do ano! A comunidade é  simplesmente incrível. Agora consigo ficar por dentro de tudo o que acontece no mundo gamer👍."
+              coments={t("textCardComments3")}
               Game="Valorant"
               logoGame={Valorant}
               isBlack
@@ -75,7 +76,7 @@ export function Slider() {
               avatar={User1}
               name="Pedro henrique"
               userInfo="Gamer e UI desinger"
-              coments="Encontrei o egamers por acaso e foi o melhor achado do ano! A comunidade é  simplesmente incrível. Agora consigo ficar por dentro de tudo o que acontece no mundo gamer👍."
+              coments={t("textCardComments1")}
               Game="Valorant"
               logoGame={Valorant}
             />
@@ -85,7 +86,7 @@ export function Slider() {
               avatar={User3}
               name="Pedro henrique"
               userInfo="Gamer e UI desinger"
-              coments="Encontrei o egamers por acaso e foi o melhor achado do ano! A comunidade é  simplesmente incrível. Agora consigo ficar por dentro de tudo o que acontece no mundo gamer👍."
+              coments={t("textCardComments2")}
               Game="Valorant"
               logoGame={Valorant}
               isBlack

@@ -5,36 +5,37 @@ import player from '../../assets/icons/player.svg'
 import lightning2 from '../../assets/icons/lightning2.svg'
 import heart from '../../assets/icons/heart.svg'
 import arrowicon from '../../assets/icons/arrowIcon.svg'
+import { t } from 'i18next'
 
 export function SectionCTA (){
     return(
         <Container>
-            <TitleSectio title=""/>
+            <TitleSectio title={t("titleSection4")}/>
             <Content>
                 <div className='card'>
                     <div className='icon_content background_white'>
                     <img src={player} alt="" />
                     </div>
-                    <strong>Gamers e amantes dos jogos</strong>
-                    <p>Não importa seu nível, se você ama jogos  sempre será bem vindo na comunidade eGamers</p>
-                    <a href="#">Seja verificado <img src={arrowicon}/></a>
+                    <strong>{t("titlecard1")}</strong>
+                    <p>{t("subtitlecard1")}</p>
+                    <a href="#"><img/></a>
                 </div>
                 <div className='card'>
                     <div className='icon_content background_pink'>
                     <img src={lightning2} alt="" />
 
                     </div>
-                    <strong>Pro players e streams</strong>
-                    <p>É profissional ou ganha a vida fazendo lives?  junte-se ao clã eGamers e divulgue seu trabalho</p>
-                    <a href="#">Seja um parceiro <img src={arrowicon} /></a>
+                    <strong>{t("titlecard2")}</strong>
+                    <p>{t("subtitlecard2")}</p>
+                    <a href="#">{t("buttonTittleSection3")}<img src={arrowicon} /></a>
                 </div>
                 <div className='card'>
                     <div className='icon_content background_purple'>
                     <img src={heart} alt="" />
                     </div>
-                    <strong>Criadores de conteúdo</strong>
-                    <p>Aqui você encontra o publico certo, comece a criar conteúdo em nossa comunidade agora mesmo</p>
-                    <a href="#">Seja verificado <img src={arrowicon}/></a>
+                    <strong>{t("titlecard3")}</strong>
+                    <p>{t("subtitlecard3")}</p>
+                    <a href="#">{t("buttonTittleSection3.2")}<img src={arrowicon}/></a>
                 </div>
             </Content>
         </Container>
