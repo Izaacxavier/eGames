@@ -1,5 +1,6 @@
 import { Container } from "./styles";
 import Tagfacebook from "../../assets/tagFacebook.svg";
+import { t } from "i18next";
 
 export function Card({ name, userInfo, avatar, coments, Game, logoGame, isBlack}) {
   return (
@@ -17,7 +18,7 @@ export function Card({ name, userInfo, avatar, coments, Game, logoGame, isBlack}
       <footer>
         <p>{coments}</p>
         <div className="tag">
-          <span>Jogo preferido</span>
+          <span>{t("favoriteGame")}</span>
           <span className="game">{Game}</span>
           <img src={logoGame} alt="valorant_icon" />
         </div>

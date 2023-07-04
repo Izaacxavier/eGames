@@ -63,12 +63,6 @@ export function SectionFuncionalidades() {
         </div>
 
 
-
-
-
-
-
-
         <div className="content_web">
           <div className="slide_image">
             <img src={image} />
@@ -83,11 +77,10 @@ export function SectionFuncionalidades() {
               <div>
                 <h2>
                   {" "}
-                  <Star size={18} /> Avaliações
+                  <Star size={18} /> {t("rating")}
                 </h2>
                 <p>
-                  Encontre as melhores avaliações antes de baxar ou comprar um
-                  jogo novo.
+                {t("text1")}
                 </p>
               </div>
             </div>
@@ -100,9 +93,9 @@ export function SectionFuncionalidades() {
               <div>
                 <h2>
                   {" "}
-                  <PlayCircle size={18} /> Streamers
+                  <PlayCircle size={18} /> {t("streamers")}
                 </h2>
-                <p>Divirta-se com streamers parceiros oficiais da eGamers.</p>
+                <p>{t("text2")}</p>
               </div>
             </div>
             <div
@@ -114,9 +107,9 @@ export function SectionFuncionalidades() {
               <div>
                 <h2>
                   {" "}
-                  <Rocket size={18} /> Postagem de conteúdo
+                  <Rocket size={18} /> {t("posts")}
                 </h2>
-                <p>Compartilhe tela e poste seu jogo favorito nos stories.</p>
+                <p>{t("text3")}</p>
               </div>
             </div>
             <div
@@ -127,10 +120,10 @@ export function SectionFuncionalidades() {
             >
               <div>
                 <h2>
-                  <Trophy size={18} /> Campeonatos
+                  <Trophy size={18} /> {t("championships")}
                 </h2>
                 <p>
-                  Organize e acompanhe os melhores campeonatos em um só lugar.
+                {t("text4")}
                 </p>
               </div>
             </div>

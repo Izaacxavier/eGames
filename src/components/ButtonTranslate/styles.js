@@ -10,7 +10,7 @@ export const Container = styled.div`
         position: absolute;
         display: none;
         flex-direction: column;
-        gap: 5px;
+        gap: 10px;
         padding: 10px 0;
         
         &.isOpen{
@@ -25,6 +25,9 @@ export const Container = styled.div`
         font-size: 0.875rem;
         margin-left: 15px;
         cursor: pointer;
+        background: transparent;
+        border: none;
+        color: ${({theme}) => theme.COLORS.WHITE};
     }
 
 `
