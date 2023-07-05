@@ -35,7 +35,7 @@ export default createGlobalStyle`
     @media (max-width: 1000px){
     
     html{
-      font-size: 12px;
+      font-size: 10px;
      
     }
   } 

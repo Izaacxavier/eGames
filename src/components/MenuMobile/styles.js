@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.nav`
     width: 100%;
-    height: 20rem;
+    height: 30rem;
     display: none;
     justify-content: flex-start;
     background: ${({theme}) => theme.COLORS.BACKGROUND_700};

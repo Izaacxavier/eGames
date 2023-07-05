@@ -41,7 +41,7 @@ export function SectionFuncionalidades() {
               }}
             >
               <div>
-                <h2><Rocket size={16} /> {t("posts")}</h2>
+                <h2><Rocket size={16} /> Posts</h2>
                 <p>{t("text3")}</p>
               </div>
             </div>

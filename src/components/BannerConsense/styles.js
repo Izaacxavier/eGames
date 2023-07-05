@@ -8,8 +8,8 @@ export const Container = styled.div`
   align-items: center;
   background: ${({ theme }) => theme.COLORS.WHITE};
   position: fixed;
-  left: 15px;
-  bottom: 15px;
+  left: 0.938rem;
+  bottom: 0.938rem;
   z-index: 99999;
   border-radius: 8px;
   animation: getUp 1s ease forwards;
@@ -27,6 +27,13 @@ export const Container = styled.div`
 
   &.closed{
           display: none;
+      }
+
+      @media (max-width: 415px){
+        width: 33.5rem;
+        left: 0.625rem;
+        bottom: 0.625rem;
+        right: 0.625rem;
       }
 `;
 
@@ -119,6 +126,7 @@ export const Content = styled.div`
     &.isOpen {
       display: flex;
     }
+
   }
 
   .buttons_content {
@@ -149,4 +157,6 @@ export const Content = styled.div`
       background: ${({ theme }) => theme.COLORS.GRAY_200};
     }
   }
+
+  
 `;

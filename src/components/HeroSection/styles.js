@@ -90,13 +90,12 @@ export const Content = styled.div`
     width: 20rem;
 
     .title {
-      width: 100%;
       font-family: "Space Grotesk", sans-serif;
       line-height: 4.688rem;
       font-weight: bold;
       width: 37.5rem;
       font-size: 2.25rem;
-      padding: 4px 0 4px;
+      padding: 0.25rem 0 0.25rem;
     }
 
     .tag_main {
@@ -156,6 +155,19 @@ export const Content = styled.div`
       img {
         width: 20rem;
       }
+    }
+  }
+  @media (max-width: 415px){
+    .image_banner_main {
+      padding-top: 40rem;
+      img {
+        width: 15rem;
+      }
+    }
+
+    .title {
+      width: 3.5rem;
+      font-size: 1.25rem;
     }
   }
 `;
