@@ -62,7 +62,7 @@ export function Footer() {
             </ul>
           </div>
           <div className="news_container">
-            <h2>{t("tliteNews")}</h2>
+            <h2>{t("titleNews")}</h2>
             <div>
               <input type="email" placeholder={t("placeholder")} />
               <button>{t("buttonNews")}</button>
