@@ -4,7 +4,7 @@ import LogoGoogle from "../../assets/icons/logo_google.svg";
 import LogoApple from "../../assets/icons/logo_apple.svg";
 import imageBanner from "../../assets/image_banner.png";
 import Facebook from '../../assets/icons/facebook_logo.png'
-import Twitch from '../../assets/icons/twitch_Icon.png'
+import Twitch from '../../assets/icons/twitch_icon.png'
 import Youtube from '../../assets/icons/youTube_logo.png'
 import Discord from '../../assets/icons/discord_logo.png'
 import { useTranslation } from "react-i18next";

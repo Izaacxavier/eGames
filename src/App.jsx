@@ -14,6 +14,7 @@ import { Footer } from "./components/footer";
 import { MenuMobile } from "./components/MenuMobile";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { BannerConsense } from "./components/BannerConsense";
 
 
 export function App() {
@@ -54,7 +55,7 @@ export function App() {
       <SectionCarrossel/>
       <SectionDownload/>
       <Footer/>
-      
+      <BannerConsense/>
     </>
   );
 }
