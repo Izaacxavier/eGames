@@ -96,6 +96,10 @@ export const Content = styled.div`
       width: 37.5rem;
       font-size: 2.25rem;
       padding: 0.25rem 0 0.25rem;
+
+      @media (max-width: 415px) {
+        width: 33.5rem;
+      }
     }
 
     .tag_main {
@@ -139,7 +143,6 @@ export const Content = styled.div`
   }
 
   @media (max-width: 800px) {
-    
     .image_banner_main {
       padding-top: 20rem;
       img {
@@ -148,7 +151,6 @@ export const Content = styled.div`
     }
   }
   @media (max-width: 768px) {
-    
     .image_banner_main {
       padding-top: 30rem;
       margin-left: -30rem;
@@ -157,17 +159,12 @@ export const Content = styled.div`
       }
     }
   }
-  @media (max-width: 415px){
+  @media (max-width: 415px) {
     .image_banner_main {
       padding-top: 40rem;
       img {
         width: 15rem;
       }
-    }
-
-    .title {
-      width: 3.5rem;
-      font-size: 1.25rem;
     }
   }
 `;
