@@ -11,7 +11,9 @@
 
 ![Captura de Tela 2023-07-05 às 05 56 41](https://github.com/Izaacxavier/CheckSpeechAi/assets/105816549/94f5dde5-b21b-43b8-8975-88a15f522200)
 
-Você pode acessá-lo com [Aqui]([https://checkspeechai.vercel.app/](https://egames-nine.vercel.app/))
+Você pode acessá-lo [Aqui](https://egames-nine.vercel.app/)
+
+
 
 <hr>
 
@@ -19,7 +21,7 @@ Você pode acessá-lo com [Aqui]([https://checkspeechai.vercel.app/](https://ega
  
 A eGames é uma landing page de um aplicativo de jogos desenvolvido utilizando a tecnologia React. Tive o privilégio de projetar e desenvolver a interface deste projeto durante o curso de UI, além de ter realizado a codificação necessária para sua implementação.
 
-O deploy foi feito com Vercel, e está disponibilizado neste [endereço]([https://checkspeechai.vercel.app/](https://egames-nine.vercel.app/)).
+O deploy foi feito com Vercel, e está disponibilizado neste [endereço](https://egames-nine.vercel.app/).
 <br>
 
 # 🚀 Tecnologias
@@ -71,7 +73,7 @@ npm start`
 
 # 🎨 Design de Interface
 
-A Interface do projeto foi desenvolvida utilizando o Figma, você pode visualizar o layout através desse [link]([https://www.figma.com/file/NSj0jmH2LhhuIZxug9BLAP/CheckSpeech-AI?type=design&node-id=0%3A1&t=rNfeOoKJlchdlm98-1](https://www.figma.com/file/jpm0xPL9gqrBF2DfX5lKmy/eGames-LP-(Izaac-Xavier)?type=design&node-id=503%3A7968&mode=design&t=3m9Hf2g02cp6Q41u-1)https://www.figma.com/file/jpm0xPL9gqrBF2DfX5lKmy/eGames-LP-(Izaac-Xavier)?type=design&node-id=503%3A7968&mode=design&t=3m9Hf2g02cp6Q41u-1).
+A Interface do projeto foi desenvolvida utilizando o Figma, você pode visualizar o layout através desse [link](https://www.figma.com/file/NSj0jmH2LhhuIZxug9BLAP/CheckSpeech-AI?type=design&node-id=0%3A1&t=rNfeOoKJlchdlm98-1](https://www.figma.com/file/jpm0xPL9gqrBF2DfX5lKmy/eGames-LP-(Izaac-Xavier)?type=design&node-id=503%3A7968&mode=design&t=3m9Hf2g02cp6Q41u-1)https://www.figma.com/file/jpm0xPL9gqrBF2DfX5lKmy/eGames-LP-(Izaac-Xavier)?type=design&node-id=503%3A7968&mode=design&t=3m9Hf2g02cp6Q41u-1).
 
 <br>
 <br>
