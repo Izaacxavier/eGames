@@ -6,7 +6,7 @@ import imageBanner from "../../assets/image_banner.png";
 import Facebook from '../../assets/icons/facebook_logo.png'
 import Twitch from '../../assets/icons/Twitch_Icon.png'
 import Youtube from '../../assets/icons/YouTube_logo.png'
-import Discord from '../../assets/icons/Discord_Logo.png'
+import Discord from '../../assets/icons/Discord_logo.png'
 import { useTranslation } from "react-i18next";
 
 
