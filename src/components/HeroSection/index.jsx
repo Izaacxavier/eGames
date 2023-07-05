@@ -3,10 +3,10 @@ import userPlusIcon from "../../assets/icons/user_plus.svg";
 import LogoGoogle from "../../assets/icons/logo_google.svg";
 import LogoApple from "../../assets/icons/logo_apple.svg";
 import imageBanner from "../../assets/image_banner.png";
-import Facebook from '../../assets/icons/facebook_logo.png'
+import Facebook from '../../assets/icons/facebook-logo.png'
 import Twitch from '../../assets/icons/twitch-icon.png'
-import Youtube from '../../assets/icons/youTube_logo.png'
-import Discord from '../../assets/icons/discord_logo.png'
+import Youtube from '../../assets/icons/youTube-logo.png'
+import Discord from '../../assets/icons/discord-logo.png'
 import { useTranslation } from "react-i18next";
 
 
