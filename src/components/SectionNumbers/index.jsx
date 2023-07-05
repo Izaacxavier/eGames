@@ -3,8 +3,14 @@ import PeoplePlusUser from '../../assets/icons/people_plus_user.svg'
 import GamerThree from '../../assets/icons/gamer_three.svg'
 import Lightning from '../../assets/icons/lightning.svg'
 import { t } from "i18next";
+import { useState } from "react";
 
 export function SectionNumbers() {
+
+  const [counter, setCounter] = useState(0)
+
+  
+
   return(
     <Container>
     <div className="title_container">

@@ -42,7 +42,9 @@
           "titleCarousel": "What are people saying about the community out there?",
           "titleTag4": "Assessments",
           "textFooter": "Gamer content made for you inside the industry and also connect with other gamers.",
-          "textNews": "Sign up Newsletter",
+          "titleNews": "Sign up Newsletter",
+          "placeholder": "Your e-mail",
+          "buttonNews": "Subscribe",
           "aFootertitle1": "About us",
           "aFootertitle2": "FAQ",
           "aFootertitle3": "Advice",
@@ -52,7 +54,7 @@
           "buttonMenu1": "About",
           "buttonMenu2": "Functionalities",
           "copyright": "eGames 2023 - All rights reserved",
-          "favoriteGame": "Favorite game"
+          "favoriteGame": "Favorite Game"
         
  
     } 

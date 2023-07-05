@@ -14,11 +14,12 @@ import { Footer } from "./components/footer";
 import { MenuMobile } from "./components/MenuMobile";
 import { useState } from "react";
 import "./utils/i18n";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 
 export function App() {
   const [menuMobileOpen, setMenuMobileOpen] = useState(false)
+  const { t } = useTranslation();
 
   function handleMenuMobile(){
     if(!menuMobileOpen){

@@ -18,8 +18,8 @@ export function ButtonTranslate() {
   }
 
   const changeLanguage = (value) => {
-    setLanguage(value);
     setMenuIsOpen(true);
+    setLanguage(value);
     i18n.changeLanguage(value)
       .than(() => {setLanguage(value);})
       .cacth((err) => {console.log(err);});
