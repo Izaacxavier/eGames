@@ -70,10 +70,13 @@ export const Container = styled.section`
     }
   }
   @media (max-width: 1320px) {
-    padding: 50px 5%;
+    padding: 3rem 5%;
   }
   @media (max-width: 1400px) {
-    padding: 50px 5%;
+    padding: 3rem 5%;
+  }
+  @media (max-width: 580px) {
+    padding: 1rem 5%;
   }
 `;
 export const Content = styled.div`
