@@ -13,7 +13,6 @@ import { SectionDownload } from "./components/SectionDownload";
 import { Footer } from "./components/footer";
 import { MenuMobile } from "./components/MenuMobile";
 import { useState } from "react";
-import "./utils/i18n";
 import { useTranslation } from "react-i18next";
 
 
