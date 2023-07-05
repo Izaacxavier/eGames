@@ -3,7 +3,9 @@ import styled from 'styled-components'
 export const Container = styled.div`
     display: flex;
 
-    > button {
+    > a{
+      text-decoration: none;
+      > button {
       height: 3rem;
       width: 9.5rem;
       display: flex;
@@ -33,6 +35,8 @@ export const Container = styled.div`
         width: 1.25rem;
       }
     }
+    }
+    
   
 `
 

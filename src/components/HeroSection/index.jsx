@@ -8,6 +8,8 @@ import Twitch from '../../assets/icons/twitch-icon.png'
 import Youtube from '../../assets/icons/youTube-logo.png'
 import Discord from '../../assets/icons/discord-logo.png'
 import { useTranslation } from "react-i18next";
+import { ButtonApple } from "../buttonApple";
+import { ButtonGoogle } from "../buttonGoogle";
 
 
 export function HeroSection() {
@@ -18,7 +20,6 @@ export function HeroSection() {
         <div className="container_title_main">
           <div className="tag_main">
             <span className="tag">
-              {" "}
               <img src={userPlusIcon} /> 25.635
             </span>
             <small>{t("descriptionTag")}</small>
@@ -31,21 +32,9 @@ export function HeroSection() {
           </div>
 
           <div className="button-container">
-            <button>
-              <img src={LogoGoogle} />
-              <div>
-                <small>Get it on</small>
-                <strong>Google PLay</strong>
-              </div>
-            </button>
-            <button>
-              <img src={LogoApple} />
-              <div>
-                <small>Download on the</small>
-                <strong>App Store</strong>
-              </div>
-            </button>
-          </div>
+              <ButtonApple/>
+              <ButtonGoogle/>
+            </div>
         </div>
 
         <div className="image_banner_main">

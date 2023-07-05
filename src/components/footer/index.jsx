@@ -16,22 +16,22 @@ export function Footer() {
             <Logo />
              <p>{t("textFooter")}</p>
             <div className="redes_sociais">
-              <a href="">
+              <a href="https://www.instagram.com/" target="_blank">
                 <button>
                   <img src={Instagram} alt="" />
                 </button>
               </a>
-              <a href="">
+              <a href="https://www.facebook.com/" target="_blank">
                 <button>
                   <img src={Facebook} alt="" />
                 </button>
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/feed/" target="_blank">
                 <button>
                   <img src={Linkedin} alt="" />
                 </button>
               </a>
-              <a href="">
+              <a href="https://twitter.com/home" target="_blank">
                 <button>
                   <img src={Twitter} alt="" />
                 </button>
@@ -78,7 +78,7 @@ export function Footer() {
           </div>
         </footer>
         <span>
-          <small>Developer by Izaac Xavier</small>
+          <small>Developer by <a href="https://www.linkedin.com/in/izaacxavier/" target="_blank">Izaac Xavier</a></small>
         </span>
       </Content>
     </Container>

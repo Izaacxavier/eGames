@@ -122,4 +122,9 @@ export const Content = styled.div`
   span {
     text-align: center;
   }
+
+  a{
+    text-decoration: none;
+    color: ${({theme}) => theme.COLORS.WHITE};
+  }
 `;

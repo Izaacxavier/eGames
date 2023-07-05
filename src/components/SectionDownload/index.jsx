@@ -2,7 +2,7 @@ import { Container, Content } from "./styles";
 import  Logo2 from '../../assets/logo-2.svg'
 import  IconStar from '../../assets/icons/iconStar.svg'
 import  ImageMockup from '../../assets/mockup_group.svg'
-import { ButtonFacebook } from "../buttonGoogle";
+import {  ButtonGoogle } from "../buttonGoogle";
 import { ButtonApple } from "../buttonApple";
 import { t } from "i18next";
 
@@ -19,7 +19,7 @@ export function SectionDownload() {
             <span>{t("titleTag4")}</span>
             </div>
             <div className="button_content">
-                <ButtonFacebook/>
+                <ButtonGoogle/>
                 <ButtonApple/>
             </div>
 

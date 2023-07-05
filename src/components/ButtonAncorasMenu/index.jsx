@@ -8,7 +8,7 @@ export function ButtonAncoraMenu({isMobile}) {
        <div className={isMobile ? "mobile" : "web"}>
        <ul>
           <li>
-            <a href="#Sobre">{t("buttonMenu1")}</a>
+            <a href="#Sobre">{t("buttonMenu1")} </a>
           </li>
           <li>
             <a href="#Funcionalidades">{t("buttonMenu2")}</a>
