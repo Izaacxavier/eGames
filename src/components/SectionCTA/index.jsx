@@ -9,7 +9,7 @@ import { t } from 'i18next'
 
 export function SectionCTA (){
     return(
-        <Container>
+        <Container id="Games">
             <TitleSectio title={t("titleSection4")}/>
             <Content>
                 <div className='card'>

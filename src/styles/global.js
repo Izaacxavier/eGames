@@ -7,6 +7,11 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+
+    html{
+        scroll-behavior: smooth;
+    }
+     
     body{
         width: 100%;
         font-family: 'Inter', sans-serif;
@@ -17,6 +22,7 @@ export default createGlobalStyle`
         background-repeat: no-repeat;
         background-position: center;
        
+
     }
     ul, li, a{
       list-style: none;

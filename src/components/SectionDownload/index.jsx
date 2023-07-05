@@ -8,7 +8,7 @@ import { t } from "i18next";
 
 export function SectionDownload() {
   return (
-    <Container>
+    <Container id="Download">
       <Content>
         <div className="left_side">
             <img src={Logo2} alt="" />

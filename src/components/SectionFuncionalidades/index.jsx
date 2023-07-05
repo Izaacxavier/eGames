@@ -12,7 +12,7 @@ export function SectionFuncionalidades() {
   const [image, setImage] = useState(image2);
 
   return (
-    <Container>
+    <Container id="Funcionalidades">
       <TitleSectio title={t("titleSection3")}/>
       <Content>
         <div className="content_mobile">

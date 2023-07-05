@@ -47,6 +47,7 @@ export function App() {
         title={t("titleSection1.2")}
         text={t("subTitleSection1.2")}
         isReverse
+        whithinButtons
       />
       <SectionFuncionalidades/>
       <SectionCTA/>

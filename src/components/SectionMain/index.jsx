@@ -1,9 +1,12 @@
 import { Chat, Chats } from "@phosphor-icons/react";
 import { t } from "i18next";
 import { Container, Content } from "./styles";
-export function SectionMain({image, icon, title, text, isReverse}) {
+
+
+export function SectionMain({image, icon, title, text, isReverse, whithinButtons}) {
+  
   return (
-    <Container>
+    <Container id="Sobre">
       <Content className={isReverse ? "reverse" : " "}>
         <img src={image} alt="imagem ilustrativo app eGames" />
 
@@ -15,7 +18,7 @@ export function SectionMain({image, icon, title, text, isReverse}) {
           <p>
             {text}
           </p>
-          <div className="buttons">
+          <div className={whithinButtons ? "buttons" : "buttons whitout_buttons"}>
                 <button>
                 <Chat size={28} />
                 <strong>Chat</strong>

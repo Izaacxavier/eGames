@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
   width: 100%;
-  padding: 0 15%;
+  padding: 0rem 15%;
 
   @media (max-width: 700px){
-    padding: 0 5%;
+    padding: 0rem 5%;
   }
 `;
 export const Content = styled.div`

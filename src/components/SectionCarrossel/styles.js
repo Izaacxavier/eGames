@@ -6,6 +6,6 @@ export const Container = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0.313rem 0;
+  padding: 5rem 0;
 `;
 

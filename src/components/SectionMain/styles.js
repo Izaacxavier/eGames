@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  padding: 1rem 15%;
+  padding: 5rem 15%;
 
   .reverse {
     flex-direction: row-reverse;
   }
   @media (max-width: 1400px) {
-    padding: 1rem 5%;
+    padding: 5rem 5%;
     }
 `;
 export const Content = styled.div`
@@ -67,6 +67,10 @@ export const Content = styled.div`
         border: none;
         border-radius: 0.5rem;
       }
+
+      &.whitout_buttons{
+          display: none;
+        }
     }
   }
   @media (max-width: 700px) {
