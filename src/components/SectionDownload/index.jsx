@@ -1,5 +1,5 @@
 import { Container, Content } from "./styles";
-import  Logo2 from '../../assets/Logo2.svg'
+import  Logo2 from '../../assets/Logo-2.svg'
 import  IconStar from '../../assets/icons/iconStar.svg'
 import  ImageMockup from '../../assets/mockup_group.svg'
 import { ButtonFacebook } from "../buttonGoogle";
