@@ -73,7 +73,7 @@ npm start`
 
 # 🎨 Design de Interface
 
-A Interface do projeto foi desenvolvida utilizando o Figma, você pode visualizar o layout através desse [link](https://www.figma.com/file/NSj0jmH2LhhuIZxug9BLAP/CheckSpeech-AI?type=design&node-id=0%3A1&t=rNfeOoKJlchdlm98-1](https://www.figma.com/file/jpm0xPL9gqrBF2DfX5lKmy/eGames-LP-(Izaac-Xavier)?type=design&node-id=503%3A7968&mode=design&t=3m9Hf2g02cp6Q41u-1)https://www.figma.com/file/jpm0xPL9gqrBF2DfX5lKmy/eGames-LP-(Izaac-Xavier)?type=design&node-id=503%3A7968&mode=design&t=3m9Hf2g02cp6Q41u-1).
+A Interface do projeto foi desenvolvida utilizando o Figma, você pode visualizar o layout através desse [link](https://www.figma.com/file/jpm0xPL9gqrBF2DfX5lKmy/eGames-LP-(Izaac-Xavier)?type=design&node-id=503%3A7968&mode=design&t=3m9Hf2g02cp6Q41u-1).
 
 <br>
 <br>
