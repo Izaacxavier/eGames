@@ -1,5 +1,5 @@
 import {Container} from './styles'
-import LogoApple from "../../assets/icons/logo_Apple.svg";
+import LogoApple from "../../assets/icons/logo_apple.svg";
 
 export function ButtonApple (){
     return(
