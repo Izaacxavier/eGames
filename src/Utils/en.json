@@ -54,7 +54,13 @@
           "buttonMenu1": "About",
           "buttonMenu2": "Functionalities",
           "copyright": "eGames 2023 - All rights reserved",
-          "favoriteGame": "Favorite Game"
+          "favoriteGame": "Favorite Game",
+          "titleCookies": "This website uses cookies",
+         "textCookies": "This website uses cookies to personalize and improve your experience. as well as providing social networking features and analyzing our traffic.",
+         "consenseText": "Cookies are small text files that can be used by websites to make the user experience better and more efficient. The law says that we can store cookies on your device if they are strictly necessary for the operation of this website. For all other types of cookies we need your permission. This website uses different types of cookies. Some cookies are placed by independent services that appear on our pages. You can change or withdraw your consent from the Cookie Statement on our website at any time. Find out more about who we are, how you can contact us and how we process personal data in our Privacy Policy. Please provide your Consent ID and date when contacting us about your consent.",
+         "buttonCookiesAccept": "Accept all cookies",
+         "buttonCookies": "Reject all cookies",
+         "readMore": "Read more"
         
  
     } 

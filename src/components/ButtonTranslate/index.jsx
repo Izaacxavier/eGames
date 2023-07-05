@@ -6,7 +6,7 @@ import i18n from "../../Utils/i18n";
 
 export function ButtonTranslate() {
   const [menuIsOpen, setMenuIsOpen] = useState(true);
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("pt");
 
   function handleMenulanguages() {
     if (!menuIsOpen) {
@@ -27,10 +27,10 @@ export function ButtonTranslate() {
 
   return (
     <Container>
-      <Content className="button_translate">
+      <Content className="button_translate" onClick={handleMenulanguages}>
         <Translate size={32} />
-        {language === "pt" ? "Português" : "English" | language === "en" ? "English" :  "Português" | language === "es" ? "Espanhol" : "English"}
-        <button onClick={handleMenulanguages}>
+        {language === "pt" ? "Português" : "Português" | language === "en" ? "English" :  "Português" | language === "es" ? "Espanhol" : "Português"}
+        <button>
           <CaretDown size={32} />
         </button>
       </Content>

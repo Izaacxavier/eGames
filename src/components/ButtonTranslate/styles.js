@@ -44,6 +44,7 @@ export const Content = styled.button`
     color: ${({theme}) => theme.COLORS.WHITE};
     padding: 0 1px;
     gap: 0.313rem;
+    cursor: pointer;
 
     > button{
         background: transparent;

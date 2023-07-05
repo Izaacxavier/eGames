@@ -1,8 +1,9 @@
 import { Container, Content } from "./styles";
 import iconCookie from "../../assets/icons/cookie.svg";
-import { CaretDown, X } from "@phosphor-icons/react";
+import { CaretDown, CaretUp, X } from "@phosphor-icons/react";
 import { useState } from "react";
 import Cookies from "js-cookie";
+import { t } from "i18next";
 
 export function BannerConsense() {
   const [moreOfCookiesIsOpen, setMoreOfCookiesIsOpen] = useState(false);
@@ -37,15 +38,11 @@ export function BannerConsense() {
           </header>
           <main>
             <div className="cookies_consense">
-              <h1>Este website utiliza cookies</h1>
+              <h1>{t("titleCookies")}</h1>
               <p>
-                Esse site utiliza cookies para personalizar e aprimorar a
-                experiência. além de fornecer funcionalidades de redes sociais e
-                analisar o nosso trafego.
+              {t("textCookies")}
               </p>
-              <button onClick={openMoreOfCookies}>
-                Leia mais <CaretDown />{" "}
-              </button>
+              <button onClick={openMoreOfCookies}>{t("readMore")} {!moreOfCookiesIsOpen ? <CaretDown /> : <CaretUp/>}</button>
 
               <div
                 className={
@@ -53,26 +50,13 @@ export function BannerConsense() {
                 }
               >
                 <p>
-                  Os cookies são pequenos ficheiros de texto que podem ser
-                  utilizados por websites para tornar a experiência do usuário
-                  melhor e mais eficiente. A lei diz que podemos armazenar
-                  cookies no seu dispositivo se forem estritamente necessários
-                  para o funcionamento deste site. Para todos os outros tipos de
-                  cookies precisamos da sua permissão. Este site utiliza
-                  diferentes tipos de cookies. Alguns cookies são colocados por
-                  serviços independentes que aparecem nas nossas páginas. Pode a
-                  qualquer momento alterar ou retirar o seu consentimento da
-                  Declaração de Cookies no nosso website. Saiba mais sobre quem
-                  somos, como pode contactar-nos e como processamos os dados
-                  pessoais na nossa Política de Privacidade. Indique sua ID de
-                  consentimento e a data quando entrar em contato conosco sobre
-                  o seu consentimento.
+                 {t("consenseText")}
                 </p>
               </div>
             </div>
             <div className="buttons_content">
-              <button onClick={isAcceptCookies}>Aceitar todos os cookies</button>
-              <button onClick={() => setCloseBanner(true)}>Rejeitar todos os cokkies</button>
+              <button onClick={isAcceptCookies}>{t("buttonCookiesAccept")}</button>
+              <button onClick={() => setCloseBanner(true)}>{t("buttonCookies")}</button>
             </div>
           </main>
         </Content>
