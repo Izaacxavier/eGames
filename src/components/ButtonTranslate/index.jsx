@@ -36,13 +36,13 @@ export function ButtonTranslate() {
       </Content>
       <div className={menuIsOpen ? "languages" : "languages isOpen"}>
         <button className="language" onClick={() => changeLanguage("pt")}>
-          <span class="fi fi-br"></span>Português
+          <span className="fi fi-br"></span>Português
         </button>
         <button className="language" onClick={() => changeLanguage("en")}>
-          <span class="fi fi-us"></span> Inglês
+          <span className="fi fi-us"></span> Inglês
         </button>
         <button className="language" onClick={() => changeLanguage("es")}>
-          <span class="fi fi-es"></span> Espanhol
+          <span className="fi fi-es"></span> Espanhol
         </button>
       </div>
     </Container>
