@@ -5,7 +5,7 @@ export const Container = styled.div`
     ul, li, a {
     display: flex;
     gap: 1.438rem;
-    font-size: 16px;
+    font-size: 1rem;
     color: ${({ theme }) => theme.COLORS.WHITE_100};
 
     &:hover {
